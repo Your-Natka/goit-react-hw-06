@@ -1,0 +1,21 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #111;
+  border-radius: 4px;
+}
+
+.input:focus {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
